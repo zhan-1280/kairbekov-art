@@ -1,0 +1,510 @@
+body {
+    width: 100vw!important;
+}
+
+.text {
+    font-size: 20px!important;
+}
+
+hr {
+    margin-bottom: 4rem!important;
+}
+
+.navbar-nav {
+    gap: 64px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.start-window {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/top-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centrovka {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.blure {
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(5px);
+}
+
+.razdel-bottom {
+    background: linear-gradient(180deg, #8D8D8D 0%, #F4F4F4 100%);
+    height: 14px;
+}
+
+.razdel-top {
+    background: linear-gradient(180deg, rgba(141, 141, 141, 0) 0%, #8D8D8D 100%);
+    height: 14px;
+}
+
+.top-logo {
+    position: absolute;
+    top: 100px;
+}
+
+.start-window h2 {
+    color: rgba(210, 210, 210, 0.9);
+    opacity: 0.8;
+}
+
+.start-window h1 {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.432) 0%, rgba(255, 255, 255, 0.81) 50.06%, rgba(255, 255, 255, 0.432) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.start-window h3 {
+    background: linear-gradient(90deg, rgba(119, 119, 119, 0.24) 0%, rgba(255, 255, 255, 0.48) 51.16%, rgba(255, 255, 255, 0.24) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.start-window a,
+.start-window a:hover {
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(196, 196, 196, 0.9);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.verstka {
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+    background: #fff;
+    color: #000;
+}
+
+.zachem {
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+    background-image: url(../img/zachem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.verstka h1,
+.my_works h1,
+.uslugi h1,
+.contacts h1,
+.zachem h1 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.verstka hr,
+.zachem hr {
+    width: 140px;
+    border: 5px #fff solid;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.verstka h2,
+.uslugi h2,
+.my_works h2,
+.zachem h2 {
+    margin: 2rem auto 5rem auto;
+    text-align: center;
+    width: 75rem;
+}
+
+.verstka .cards {
+    gap: 40px;
+    margin: 0 auto 64px auto;
+}
+
+.verstka .card {
+    padding: 32px 60px;
+    color: #000;
+    text-align: center;
+    width: 460px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.verstka .card h3 {
+    margin: 2rem 0 1rem 0;
+}
+
+.my_works hr,
+.uslugi hr {
+    width: 140px;
+    border: 5px #8D8D8D solid;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.my_works h2 {
+    color: #8D8D8D;
+}
+
+.my_works .works {
+    margin-bottom: 4rem;
+}
+
+.my_works .work {
+    margin: 0 auto;
+    gap: 160px;
+}
+
+.uslugi {
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+    background-image: url(../img/uslugi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.uslugi .cards {
+    gap: 40px;
+    margin: 0 auto 4rem auto;
+}
+
+.uslugi .card {
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 24px 10px;
+    width: 270px;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+.uslugi .card h3 {
+    margin: 28px 0 16px 0;
+}
+
+.black {
+    box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 1.5rem 2rem!important;
+    color: #000;
+    width: 30rem!important;
+    background: #fff;
+    border-radius: 1rem;
+}
+
+.black .top {
+    margin-bottom: 2rem;
+}
+
+.black .top p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.black .down {
+    gap: 20px;
+}
+
+.black a,
+.black a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.contacts {
+    position: relative;
+    z-index: 0;
+    background-image: url(../img/verstka-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.contacts hr {
+    width: 140px;
+    border: 5px #fff solid;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto 2rem auto;
+}
+
+.mb-6 {
+    margin-bottom: 4rem;
+}
+
+footer {
+    width: 100vw;
+    color: #fff;
+}
+
+footer p {
+    margin: 2rem auto;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+@media(max-width: 1000px) {
+    .wh {
+        width: 25rem!important;
+    }
+    .navbar__wrap .menu {
+        display: none!important;
+    }
+    .hamb {
+        display: flex!important;
+        align-items: center;
+    }
+    .hamb__field {
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 0.5rem;
+        border: 1px #000 solid;
+        border-radius: 8px;
+    }
+    .bar {
+        display: block;
+        width: 40px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #000;
+        transition: 0.2s;
+    }
+    .popup {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 99;
+        display: flex!important;
+        transition: 0.3s;
+    }
+    .popup.open {
+        left: 0;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .navbar__wrap .menu li a {
+        color: rgb(0, 0, 0);
+    }
+    .popup .menu {
+        padding-left: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: 0%;
+        height: 70%;
+        text-align: center;
+        justify-content: start;
+        overflow: auto;
+    }
+    .popup .menu li {
+        width: 100%;
+    }
+    .popup .menu li a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #000!important;
+    }
+    .popup .menu li a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    body.noscroll {
+        overflow: hidden;
+    }
+    .verstka .cards {
+        display: block!important;
+        margin: 0 auto 32px auto;
+    }
+    .verstka .card {
+        width: auto;
+        margin-bottom: 32px;
+    }
+    .my_works .lines {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .uslugi .cards {
+        flex-direction: column;
+    }
+    .uslugi .card {
+        width: auto;
+    }
+    .verstka h2,
+    .uslugi h2,
+    .my_works h2,
+    .zachem h2 {
+        width: auto;
+    }
+    .black {
+        width: auto!important;
+        margin: auto;
+    }
+    body,
+    .start-window,
+    .blure,
+    .verstka,
+    .zachem,
+    .uslugi,
+    .footer,
+    .razdel-bottom,
+    .razdel-top {
+        width: 100vw!important;
+    }
+    body {
+        overflow: overlay;
+    }
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 0.5rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    position: relative;
+    color: #000;
+}
+
+.navbar {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.navbar__wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.hamb {
+    display: none;
+}
+
+.popup,
+.popup-logo {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.navbar__wrap .menu {
+    display: flex;
+}
+
+.navbar__wrap .menu li {
+    display: flex;
+    align-items: stretch;
+}
+
+.navbar__wrap .menu li a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+body,
+.start-window,
+.blure,
+.verstka,
+.zachem,
+.uslugi,
+.footer,
+.razdel-bottom,
+.razdel-top {
+    width: 100vw!important;
+}
+
+body {
+    overflow: overlay;
+}
+
+
+/* .mix_blend_mode-darken {
+    mix-blend-mode: darken;
+} */
+
+.wh {
+    width: 30rem;
+    height: 95%;
+}
+
+.bg-none {
+    background: none;
+    border: none;
+}
